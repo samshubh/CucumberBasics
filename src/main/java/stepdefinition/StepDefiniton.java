@@ -6,9 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.cucumber.java.en.Given;
+
 import junit.framework.Assert;
 
 public class StepDefiniton {
@@ -29,6 +30,7 @@ public class StepDefiniton {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 			driver.get("https://www.kiposcollective.com/#/");
+			Thread.sleep(4000);
 			
 		
 	  }

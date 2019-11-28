@@ -44,38 +44,46 @@ formatter.step({
   "name": "close the browser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "StepDefiniton.user_is_already_on_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 14949654444,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefiniton.title_of_the_page_is_Kipos_Collective()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 37851325,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefiniton.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4093991828,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefiniton.user_enters_email_and_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8358704208,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefiniton.user_clicks_on_submit_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3106086347,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefiniton.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1417126937,
+  "status": "passed"
 });
 });
