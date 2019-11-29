@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Kipos login using examples keyword",
+        "description": "",
+        "id": "kipos-application;kipos-login-using-examples-keyword;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16904272198,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in landing page",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.user_in_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34773099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title is Kipos Collective",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.title_is_Kipos_Collective()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4116575183,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8432287425,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the login details \"prashanth.burri@srijaytech.com\" and \"welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prashanth.burri@srijaytech.com",
+                  "offset": 30
+                },
+                {
+                  "val": "welcome123",
+                  "offset": 67
+                }
+              ],
+              "location": "LoginUsingExamplesKeyword.user_enter_the_login_details_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3110406185,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on submit button",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1285972302,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the current browser",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.close_the_current_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Kipos login using examples keyword",
+        "description": "",
+        "id": "kipos-application;kipos-login-using-examples-keyword;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17077447178,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in landing page",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.user_in_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39845031,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title is Kipos Collective",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.title_is_Kipos_Collective()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4110005049,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8390035293,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the login details \"jay@srijaytech.com\" and \"welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jay@srijaytech.com",
+                  "offset": 30
+                },
+                {
+                  "val": "welcome123",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginUsingExamplesKeyword.user_enter_the_login_details_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3083236708,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on submit button",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1224425730,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the current browser",
+            "match": {
+              "location": "LoginUsingExamplesKeyword.close_the_current_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Kipos Application",
+    "description": "",
+    "id": "kipos-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberTopics/src/main/java/feature/DataDrivenMultipleExamplesKeyword.feature"
+  }
+]

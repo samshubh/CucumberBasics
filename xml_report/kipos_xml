@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="67.809281">
+<testcase classname="Kipos Application" name="Kipos login using examples keyword" time="33.884286">
+<system-out><![CDATA[Given user in landing page..................................................passed
+When title is Kipos Collective..............................................passed
+Then click on login button..................................................passed
+Then user enter the login details "prashanth.burri@srijaytech.com" and "welcome123".passed
+Then click on submit button.................................................passed
+Then close the current browser..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Kipos Application" name="Kipos login using examples keyword 2" time="33.924995">
+<system-out><![CDATA[Given user in landing page..................................................passed
+When title is Kipos Collective..............................................passed
+Then click on login button..................................................passed
+Then user enter the login details "jay@srijaytech.com" and "welcome123".....passed
+Then click on submit button.................................................passed
+Then close the current browser..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
